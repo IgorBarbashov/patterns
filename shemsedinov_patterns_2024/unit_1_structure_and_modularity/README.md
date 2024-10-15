@@ -7,7 +7,7 @@
 Why do we need rethinking and adapting GoF, SOLID, and GRASP
 for JavaScript/TypeScript realities. How to do it?
 
-Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code examples, 🧑‍💻 Tasks
+Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code examples, 🧑‍💻 Tasks, 🎧 Q&A Calls
 
 - 📆 Week 1: Code Characteristics and Optimization Strategies
   - 🧩 There is a path that leads to radical improvement of the structure and
@@ -17,14 +17,11 @@ Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code ex
     maintainability, reusability, flexibility, security. Optimal use of
     computing resources: processor, memory, input-output and cognitive
     resources of developers.
-  - ⭐ [Характеристики кода и стратегии оптимизации, V8 машинерия, SOLID:SRP, SoC](https://youtu.be/ZzGPZ4d8K-8)
+  - ⭐ [Характеристики кода и стратегии оптимизации, V8 машинерия, SOLID:SRP, SoC](https://youtu.be/ZzGPZ4d8K-8) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/01_code_characteristics.md)
   - 💻 [Code examples from lecture](week_1_code_characteristics_and_optimization_strategies/code_examples_from_lecture)
-
-[//]: # (  - 🧑‍💻 [Practical tasks]&#40;https://github.com/metatech-university/Patterns-2024-Unit1/blob/main/Tasks/1-soc-opt.js&#41;)
-
-[//]: # (  - 💡 [Принципы SOLID]&#40;https://youtu.be/B2guSV8EMn0&#41;)
-
-[//]: # (  - 💡 Принципы GRASP: [часть 1]&#40;https://youtu.be/vm8p4jIQwp4&#41;, [часть 2]&#40;https://youtu.be/aJGB7TLwiig&#41;)
+  - 🧑‍💻 [Practical tasks](week_1_code_characteristics_and_optimization_strategies/practical_tasks)
+  - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/02_solid.md)
+  - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary]()
 
 [//]: # (  - 💡 [Принципы GRASP еще одна лекция]&#40;https://youtu.be/ExauFjYV_lQ&#41;)
 
