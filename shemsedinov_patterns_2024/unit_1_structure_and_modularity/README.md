@@ -20,10 +20,9 @@ Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code ex
   - ⭐ [Характеристики кода и стратегии оптимизации, V8 машинерия, SOLID:SRP, SoC](https://youtu.be/ZzGPZ4d8K-8) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/01_code_characteristics.md)
   - 💻 [Code examples from lecture](week_1_code_characteristics_and_optimization_strategies/code_examples_from_lecture)
   - 🧑‍💻 [Practical tasks](week_1_code_characteristics_and_optimization_strategies/practical_tasks)
-  - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/02_solid.md)
-  - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary]()
-
-[//]: # (  - 💡 [Принципы GRASP еще одна лекция]&#40;https://youtu.be/ExauFjYV_lQ&#41;)
+  - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0)
+  - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/04_grasp_part_2.md)
+  - 💡 Принципы GRASP: [еще одна лекция](https://youtu.be/ExauFjYV_lQ) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/05_grasp_part_3.md)
 
 [//]: # (  - 💡 [Паттерны GoF]&#40;https://youtu.be/AQ21QE1BJrc&#41;)
 
