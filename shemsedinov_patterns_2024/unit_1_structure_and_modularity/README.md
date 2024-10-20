@@ -23,6 +23,7 @@ Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code ex
   - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0)
   - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/04_grasp_part_2.md)
   - 💡 Принципы GRASP: [еще одна лекция](https://youtu.be/ExauFjYV_lQ) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/05_grasp_part_3.md)
+  - 🎧 Calls: [👉 Patterns Q&A #2](https://youtu.be/wRO6ahSYiys) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/06_qa_patterns_2.md), [👉 Community #173](https://youtu.be/TdA3sHJTg4Q) | [summary]()
 
 [//]: # (  - 💡 [Паттерны GoF]&#40;https://youtu.be/AQ21QE1BJrc&#41;)
 
