@@ -8,15 +8,15 @@ const {
     fieldDelimiter,
     parseToIntFieldIndexes,
     normalizeByFieldIndex,
-    formatDataConfig
+    formatDataConfig,
 } = require('./1-soc-opt-config.js');
 
 const {
     parseCountryInfo,
     parseCountriesInfo,
-    getMaxFiledValue,
+    getMaxFieldValue,
     getCountriesWithNormalizedValues,
-    formatData
+    formatData,
 } = require('./1-soc-opt-solution-procedural.js');
 
 test('Week 1: parseCountryInfo parse one country line correctly', () => {
@@ -46,14 +46,14 @@ test('Week 1: parseCountriesInfo parse data correctly', () => {
     assert.deepStrictEqual(actual[2], expectedThirdElement);
 });
 
-test('Week 1: getMaxFiledValue calculate max value of specified field correctly', () => {
+test('Week 1: getMaxFieldValue calculate max value of specified field correctly', () => {
     const testData = [
         ['Shanghai', '24256800', '6340', 3826, 'China'],
         ['Delhi', '16787941', '1484', 11313, 'India'],
-        ['Lagos', '16060303', '1171', 13712, 'Nigeria']
+        ['Lagos', '16060303', '1171', 13712, 'Nigeria'],
     ];
 
-    const actual = getMaxFiledValue(testData, { normalizeByFieldIndex });
+    const actual = getMaxFieldValue(testData, { normalizeByFieldIndex });
     const expected = 13712;
 
     assert.strictEqual(actual, expected);
@@ -62,7 +62,7 @@ test('Week 1: getMaxFiledValue calculate max value of specified field correctly'
 test('Week 1: getCountriesWithNormalizedValues append column with normalized value correctly', () => {
     const testData = [
         ['Shanghai', '24256800', '6340', 3826, 'China'],
-        ['Lagos', '16060303', '1171', 13712, 'Nigeria']
+        ['Lagos', '16060303', '1171', 13712, 'Nigeria'],
     ];
     const normalizeToValue = 13712;
 

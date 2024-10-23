@@ -1,3 +1,5 @@
+'use strict';
+
 const rowDelimiter = '\n';
 
 const fieldDelimiter = ',';
@@ -14,7 +16,7 @@ const formatDataConfig = [
     { padFn: 'padStart', padSize: 8 },
     { padFn: 'padStart', padSize: 8, convertFn: String },
     { padFn: 'padStart', padSize: 18 },
-    { padFn: 'padStart', padSize: 6, convertFn: String }
+    { padFn: 'padStart', padSize: 6, convertFn: String },
 ];
 
 module.exports = {
@@ -23,5 +25,5 @@ module.exports = {
     parseToIntFieldIndexes,
     normalizeByFieldIndex,
     sortByFieldIndex,
-    formatDataConfig
+    formatDataConfig,
 };

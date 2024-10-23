@@ -1,3 +1,5 @@
+'use strict';
+
 const data = `city,population,area,density,country
   Shanghai,24256800,6340,3826,China
   Delhi,16787941,1484,11313,India
@@ -11,5 +13,5 @@ const data = `city,population,area,density,country
   Bangkok,8280925,1569,5279,Thailand`;
 
 module.exports = {
-    data
+    data,
 };
