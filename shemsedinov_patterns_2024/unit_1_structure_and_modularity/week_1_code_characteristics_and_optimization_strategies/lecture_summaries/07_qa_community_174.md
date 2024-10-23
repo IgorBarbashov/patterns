@@ -1,4 +1,4 @@
-### Metarhia community Weekly call #173
+### Metarhia community Weekly call #174
 
 **Patterns - Task1 - Review**
 

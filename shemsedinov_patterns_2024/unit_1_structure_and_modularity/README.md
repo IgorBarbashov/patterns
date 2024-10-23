@@ -9,21 +9,17 @@ for JavaScript/TypeScript realities. How to do it?
 
 Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code examples, 🧑‍💻 Tasks, 🎧 Q&A Calls
 
-- 📆 Week 1: Code Characteristics and Optimization Strategies
-  - 🧩 There is a path that leads to radical improvement of the structure and
-    characteristics of your code. GoF, SOLID, GRASP principles and
-    patterns, how to apply them and what do we get. Code characteristics:
-    readability (understanding), reliability, testability,
-    maintainability, reusability, flexibility, security. Optimal use of
-    computing resources: processor, memory, input-output and cognitive
-    resources of developers.
+📆 **Week 1: Code Characteristics and Optimization Strategies**
+
+🧩 There is a path that leads to radical improvement of the structure and characteristics of your code. GoF, SOLID, GRASP principles and patterns, how to apply them and what do we get. Code characteristics: readability (understanding), reliability, testability, maintainability, reusability, flexibility, security. Optimal use of computing resources: processor, memory, input-output and cognitive resources of developers.
+
   - ⭐ [Характеристики кода и стратегии оптимизации, V8 машинерия, SOLID:SRP, SoC](https://youtu.be/ZzGPZ4d8K-8) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/01_code_characteristics.md)
   - 💻 [Code examples from lecture](week_1_code_characteristics_and_optimization_strategies/code_examples_from_lecture)
-  - 🧑‍💻 [Practical tasks](week_1_code_characteristics_and_optimization_strategies/practical_tasks)
+  - 🧑‍💻 [Practical tasks](../practical_tasks)
   - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0)
   - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/04_grasp_part_2.md)
   - 💡 Принципы GRASP: [еще одна лекция](https://youtu.be/ExauFjYV_lQ) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/05_grasp_part_3.md)
-  - 🎧 Calls: [👉 Patterns Q&A #2](https://youtu.be/wRO6ahSYiys) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/06_qa_patterns_2.md), [👉 Community #173](https://youtu.be/TdA3sHJTg4Q) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/07_qa_community_173.md)
+  - 🎧 Calls: [👉 Patterns Q&A #2](https://youtu.be/wRO6ahSYiys) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/06_qa_patterns_2.md), [👉 Community #174](https://youtu.be/tQXeZ_c3yGs) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/07_qa_community_174.md)
 
 [//]: # (  - 💡 [Паттерны GoF]&#40;https://youtu.be/AQ21QE1BJrc&#41;)
 
