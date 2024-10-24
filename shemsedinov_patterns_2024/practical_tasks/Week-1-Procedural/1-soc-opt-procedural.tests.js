@@ -9,7 +9,7 @@ const {
     parseToIntFieldIndexes,
     normalizeByFieldIndex,
     formatDataConfig,
-} = require('./1-soc-opt-config.js');
+} = require('../Week-1-Common/1-soc-opt-config.js');
 
 const {
     parseCountryInfo,
@@ -17,7 +17,7 @@ const {
     getMaxFieldValue,
     getCountriesWithNormalizedValues,
     formatData,
-} = require('./1-soc-opt-solution-procedural.js');
+} = require('./1-soc-opt-procedural.js');
 
 test('Week 1: parseCountryInfo parse one country line correctly', () => {
     const testData = 'Shanghai,24256800,6340,3826,China';

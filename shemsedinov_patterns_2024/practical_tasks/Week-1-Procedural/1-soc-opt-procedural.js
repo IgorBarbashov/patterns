@@ -7,9 +7,9 @@ const {
     normalizeByFieldIndex,
     sortByFieldIndex,
     formatDataConfig,
-} = require('./1-soc-opt-config.js');
+} = require('../Week-1-Common/1-soc-opt-config.js');
 
-const { data } = require('./1-soc-opt-data.js');
+const { data } = require('../Week-1-Common/1-soc-opt-data.js');
 
 const parseCountryInfo = ({ fieldDelimiter, parseToIntFieldIndexes }, country) => country
     .split(fieldDelimiter)
@@ -41,7 +41,7 @@ const processData = (data) => {
     }
 
     const countriesInfo = parseCountriesInfo(data, { rowDelimiter, fieldDelimiter, parseToIntFieldIndexes });
-    const normalizeToValue = getMaxFieldValue(countriesInfo, { fieldName: normalizeByFieldIndex });
+    const normalizeToValue = getMaxFieldValue(countriesInfo, { fieldIndex: normalizeByFieldIndex });
     const countriesWithNormalizedValues = getCountriesWithNormalizedValues(countriesInfo, { normalizeByFieldIndex, normalizeToValue });
     countriesWithNormalizedValues.sort((a, b) => b[sortByFieldIndex] - a[sortByFieldIndex]);
     const formattedData = formatData(countriesWithNormalizedValues, { formatDataConfig });
