@@ -29,7 +29,9 @@ class Formatter {
 
     formatData(data) {
         return data.map((row) => row.map((cell, i) => {
-            const { padFn, padSize, convertFn } = this.#formatDataConfig[i].getConfig();
+            const { padFn, padSize, convertFn } =
+                this.#formatDataConfig[i].getConfig();
+
             return (convertFn?.(cell) ?? cell)[padFn](padSize);
         }).join(''));
     }

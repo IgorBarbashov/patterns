@@ -28,12 +28,18 @@ class Countries {
     }
 
     #getMaxFieldValue(fieldIndex) {
-        return this.#countries.reduce((acc, country) => Math.max(acc, country.getValueByIndex(fieldIndex)), 0);
+        return this.#countries.reduce((acc, country) =>
+            Math.max(acc, country.getValueByIndex(fieldIndex)), 0);
     }
 
     getCountriesDataWithNormalizedValues(fieldIndex) {
         const maxFieldValue = this.#getMaxFieldValue(fieldIndex);
-        return this.#countries.map((country) => [...country.getData, country.getNormalizedValue(fieldIndex, maxFieldValue)]);
+        return this.#countries.map((country) =>
+            [
+                ...country.getData,
+                country.getNormalizedValue(fieldIndex, maxFieldValue),
+            ],
+        );
     }
 }
 

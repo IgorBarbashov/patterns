@@ -8,11 +8,16 @@ class Parser {
     static #parseCountryData(country) {
         return country
             .split(Parser.#fieldDelimiter)
-            .map((field, i) => Parser.#parseToIntFieldIndexes.includes(i) ? parseInt(field) : field.trim());
+            .map((field, i) => Parser.#parseToIntFieldIndexes.includes(i)
+                ? parseInt(field)
+                : field.trim());
     }
 
     static parseCountriesData(data) {
-        return data.split(Parser.#rowDelimiter).slice(1).map(Parser.#parseCountryData);
+        return data
+            .split(Parser.#rowDelimiter)
+            .slice(1)
+            .map(Parser.#parseCountryData);
     };
 }
 
