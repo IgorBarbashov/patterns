@@ -14,8 +14,7 @@ Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code ex
 JavaScript has built-in contracts: Thenable, Iterator, AsyncIterator, Callback-last, Callable, Cancelable, Observable, but the culture of developing through contracts and interfaces is not popular enough in the community. How can we improve development performance with Knowledge-driven approach. How patterns may help us in this direction: to delivery quick and effective, to be performant, to make everydays work interesting, to be motivated and never burnout.
 
 - ⭐ [Контракты `Callback` и `Callback-last-error-first`](https://youtu.be/vcOGCWL-eZc) | [summary](lecture_summaries/01_callback_last_error_first.md)
-
-[//]: # (- ⭐ [Контракт `Thenabe`]&#40;https://youtu.be/CHQcDllD_io&#41;)
+- ⭐ [Контракт `Thenabe`](https://youtu.be/CHQcDllD_io) | [summary](lecture_summaries/02_thenable.md)
 
 [//]: # (- ⭐ [Контракты Iterator и AsyncIterator]&#40;https://youtu.be/rBGFlWpVpGs&#41;)
 
