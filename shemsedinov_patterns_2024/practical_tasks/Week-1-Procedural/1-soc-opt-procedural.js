@@ -11,23 +11,19 @@ const {
 
 const { data } = require('../Week-1-Common/1-soc-opt-data.js');
 
-const parseCountryInfo = (
-    { fieldDelimiter, parseToIntFieldIndexes },
-    country,
-) => country
-    .split(fieldDelimiter)
-    .map((field, i) => parseToIntFieldIndexes.includes(i)
-        ? parseInt(field)
-        : field.trim());
+const parseCountryInfo = ({ fieldDelimiter, parseToIntFieldIndexes }) =>
+    (country) => country
+        .split(fieldDelimiter)
+        .map((field, i) => parseToIntFieldIndexes.includes(i)
+            ? parseInt(field)
+            : field.trim());
 
 const parseCountriesInfo = (
     data,
     { rowDelimiter, fieldDelimiter, parseToIntFieldIndexes },
 ) => {
-    const countryInfoParser = parseCountryInfo.bind(
-        null,
-        { fieldDelimiter, parseToIntFieldIndexes },
-    );
+    const countryInfoParser =
+        parseCountryInfo({ fieldDelimiter, parseToIntFieldIndexes });
     return data.split(rowDelimiter).slice(1).map(countryInfoParser);
 };
 
