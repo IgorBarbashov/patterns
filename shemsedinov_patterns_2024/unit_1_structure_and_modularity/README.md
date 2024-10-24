@@ -19,11 +19,12 @@ Symbols/legend: ⭐ Required, 💡 Optional, 🧑‍🎓 Difficult, 💻 Code ex
   - 💡 [Принципы SOLID](https://youtu.be/B2guSV8EMn0)
   - 💡 Принципы GRASP: [👉 часть 1](https://youtu.be/vm8p4jIQwp4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/03_grasp_part_1.md), [👉 часть 2](https://youtu.be/aJGB7TLwiig) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/04_grasp_part_2.md)
   - 💡 Принципы GRASP: [еще одна лекция](https://youtu.be/ExauFjYV_lQ) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/05_grasp_part_3.md)
+  - 💡 [Паттерны GoF](https://youtu.be/AQ21QE1BJrc)
+  - 💡 [Мономорфный и полиморфный код, инлайн-кэш, скрытые классы в JavaScript](https://www.youtube.com/watch?v=9JUY3prnCQ4) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/08_poly_mono_morf_code.md)
   - 🎧 Calls: [👉 Patterns Q&A #2](https://youtu.be/wRO6ahSYiys) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/06_qa_patterns_2.md), [👉 Community #174](https://youtu.be/tQXeZ_c3yGs) | [summary](week_1_code_characteristics_and_optimization_strategies/lecture_summaries/07_qa_community_174.md)
 
-[//]: # (  - 💡 [Паттерны GoF]&#40;https://youtu.be/AQ21QE1BJrc&#41;)
-
-[//]: # (  - 💡 [Мономорфный и полиморфный код, инлайн-кэш, скрытые классы в JavaScript]&#40;https://www.youtube.com/watch?v=9JUY3prnCQ4&#41;)
+  
+  
 
 [//]: # (  - 🧑‍🎓 [What's up with monomorphism? By Vyacheslav Egorov]&#40;https://mrale.ph/blog/2015/01/11/whats-up-with-monomorphism.html&#41;)
 
